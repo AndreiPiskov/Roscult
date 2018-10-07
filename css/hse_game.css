@@ -1,0 +1,49 @@
+.game {
+  max-width: 50%;
+  margin-left: 25%;
+  position: relative;
+}
+
+ .game select {
+    width: 100%;
+    background: none;
+    border: 2;
+    padding: 10px 28px 10px 10px;
+    /*-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;*/
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 18px;
+}
+ #birth, #hse {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: 0 auto 20px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 4px;
+}
+.btn_block {
+  width: 100%;
+  text-align: center;
+}
+.btn_calc {
+ font-family: Garamond;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 1;
+   margin-right: 14px;
+   z-index: 0;
+   display: inline-block;
+   min-width: 120px;
+   height: 42px;
+   padding: 0 27px;
+   cursor: pointer;
+   word-spacing: -.5px;
+   color: #fff;
+   border: 1px solid rgba(0,0,0,.15);
+   border-radius: 4px;
+   outline: none;
+   white-space: nowrap;
+}
